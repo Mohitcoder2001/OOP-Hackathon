@@ -54,12 +54,12 @@ void getdonor()
                 Q = strcmp(city, B[j].city);
                 if (Q != 0)
                 {
-                    printf("Sorry in your area this type of Blood group is not available\n");
+                    printf("Sorry in your area this type of blood group is not available\n");
                     break;
                 }
                 else
                 {
-                    printf("yes Blood is availble, you contacts your near hospital\n");
+                    printf("Yes Blood is availble, you contacts your near hospital\n");
                     k = 1;
                     break;
                 }
@@ -74,10 +74,7 @@ void getdonor()
     {
         printf("Sorry in our hospital this type of Blood group is not available\n");
     }
-    // else
-    // {
-    //     printf("i am so sorry, We can't help you ,Please check onther hospital\n");
-    // }
+    
 }
 
 void menu()
